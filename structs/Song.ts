@@ -4,7 +4,7 @@ import { i18n } from "../utils/i18n";
 import { videoPattern, isURL } from "../utils/patterns";
 
 const { stream, video_basic_info } = require("play-dl");
-import ytdl from "ytdl-core";
+import ytdl from "@distube/ytdl-core"
 
 export interface SongData {
   url: string;
